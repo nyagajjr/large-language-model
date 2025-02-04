@@ -11,7 +11,7 @@ data = [item for item in split_data if item.strip()]
 #assigning tokens ids
 sorted_data = sorted(set(data))
 vocabulary = {}
-for integer,token in enumerate(sorted_data):
-    vocabulary[integer]=token
+for index,token in enumerate(sorted_data):
+    vocabulary[index]=token
 
 print(vocabulary)
