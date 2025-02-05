@@ -32,4 +32,21 @@ dog2 = Dog("Skeleton", 5)
 
 dog2.introduction()
 
+class Person:
+    def __init__(self, name, personality, is_sitting, dog_name, dog_age):
+        self.name = name
+        self.personality = personality
+        self.is_sitting = is_sitting
+        self.dog_name = dog_name
+        self.dog_age = dog_age
+
+
+    def persona(self):
+        print("My name is " + self.name + " and my personality is " + "and I own " + self.dog_name + " aged " + str(self.dog_age))
+
+person1 = Person("Margaret", "calm", False, dog1.name, dog1.age)
+
+person1.persona()
+        
+
 
