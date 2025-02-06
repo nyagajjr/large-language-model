@@ -8,6 +8,7 @@ split_data = re.split(r'([,.:;?_!"()\']|--|\s)', raw_data)
 data = [item.strip() for item in split_data if item.strip()]
 sorted_data = sorted(set(data))
 #print(data[:200])
+# print(data[:-2])
 
 #assigning tokens ids
 vocabulary = {}
